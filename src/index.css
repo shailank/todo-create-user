@@ -1,0 +1,123 @@
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+.App-title {
+  font-size: 26px;
+}
+
+.reminder-form {
+  padding: 5px;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.reminder-form input {
+  margin: 5px;
+  align-items: center;
+  justify-content: center;
+}
+.myList {
+}
+
+.formField {
+  display: grid;
+
+  margin: 5px;
+  padding: 6px 100px;
+}
+.edit {
+  margin-bottom: 5px;
+  margin-right: 3px;
+}
+
+.list-item-text {
+  margin-left: 5px;
+}
+
+.list-item-text-done {
+  margin-left: 5px;
+  text-decoration: line-through;
+}
+
+.list-item-input {
+  margin-left: 5px;
+}
+
+.list-item-time-nonEditingMode {
+  margin-left: 30px;
+  font-size: 85%;
+  opacity: 0.5;
+  font-style: italic;
+}
+
+.list-item-time-editingMode {
+  margin-left: 5px;
+  font-size: 85%;
+  opacity: 0.5;
+  font-style: italic;
+}
+
+/* default case when isEditing is set to false */
+.toggle-show {
+}
+
+/* done icon is hidden when reminder text is in editable mode */
+.toggle-hidden {
+  display: none;
+}
+
+.clear-done-button {
+  margin-left: 5px;
+}
+
+.reminders-number {
+  opacity: 0.5;
+  font-style: bold;
+  margin-right: 445px;
+}
+
+.reminders-number:hover {
+  opacity: 1;
+}
+pre {
+  font-family: Arial;
+  color: #009900;
+  margin: 25px;
+}
+
+.filter-dropdown {
+  color: black;
+  opacity: 0.6;
+  margin-left: 200px;
+}
+
+.filter-group {
+  display: flex;
+  justify-content: space-between;
+}
+.formField {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+th {
+  background-color: #4caf50;
+  color: white;
+}
